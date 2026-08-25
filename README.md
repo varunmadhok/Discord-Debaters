@@ -38,6 +38,8 @@ cd BareMetal-App
 ./3-upload.sh # optional - upload to BareMetal Cloud
 ```
 Repeat with  bot_deferred_polling-B.c and  bot_deferred_polling-C.c to deploy the instances on BareMetal 
+This is what you should see upon completion.
+<img width="912" height="757" alt="image" src="https://github.com/user-attachments/assets/8d2e6ec8-beba-4e7f-baf7-0e2ae067938a" />
 
 ## *nix (Linux/BSD/macOS)
  bot_deferred_polling-A.c, etc are also valid standalone C programs - just link against libcurl and libcjson:
